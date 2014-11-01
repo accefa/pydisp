@@ -1,4 +1,4 @@
 pydisp
 ======
 
-Python example for controlling a LCD over serial inferface
+Python examples for controlling a LCD over the serial inferface.
