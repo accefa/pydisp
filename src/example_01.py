@@ -11,9 +11,9 @@ import sys
 ser = serial.Serial('/dev/ttyUSB0', 9600)
 
 # check the connection
-if ser.isOpen()
+if ser.isOpen() == True:
     print("connection ok")
-else
+else:
     print("connection failed")
     print("exiting...")
     sys.exit()
